@@ -1,0 +1,103 @@
+/* Reset gaya default browser */
+body, figure, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+  }
+  
+  .logo img {
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+  }
+  
+  h1 {
+    margin-top: -80px;
+    margin-left: 110px;
+  }
+  
+  /* Styling navigasi */
+  nav {
+    background-color: #555;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Styling section */
+  section {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .team {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .team li {
+    flex-basis: 33%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .team img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling form kontak */
+  form {
+    margin-top: 150px;
+  }
+  
+  label, textarea, input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Styling footer */
+  footer {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .heart {
+    color: red;
+  }
+  
